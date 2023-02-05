@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Lemon&display=swap');
+
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,12 +9,19 @@
 
 body{
     background-color: #ffffff;
+    font-family: 'Andika', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 nav a{
     text-align: center;
     color: #05668d ;
     text-decoration: none;
+    padding: 35px;
+   
 }
 
 nav a:hover{
@@ -43,6 +54,10 @@ header{
     background-color:#05668d;
     color:#e8c547;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #e8c547;
@@ -53,16 +68,24 @@ header{
 }
 .msg{
     background-color: #028090;
+    line-height: 1.5em;
+    padding: 35px;
+    
 }
 .msg h2{
     color: black;
+    font-family: 'lemon', 'Aral Black', sans-serif ;
 }
 .msg p{
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #028090;
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #05668d;
@@ -85,6 +108,9 @@ footer p a:hover{
 
 .home-title{
     color: #028090;
+    font-family:  'lemon', 'Aral Black', sans-serif ;
+    font-size: 2em;
+    margin-top: 10px;
 
 }
 h4{
@@ -94,7 +120,37 @@ h4{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
+    
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+
+}
+
+.card-img{
+    border: 10px solid #e8c547;
+}
+main section img{
+    box-sizing: border-box;
+}
+
+#hero-img{
+    width: 100%;
 }
